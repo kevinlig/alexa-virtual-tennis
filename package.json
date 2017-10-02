@@ -1,0 +1,17 @@
+{
+  "name": "alexa-table-tennis-game",
+  "version": "1.0.0",
+  "description": "Table tennis game for Alexa",
+  "main": "handler.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.14",
+    "lodash": "^4.17.4",
+    "ssml-builder": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Li",
+  "license": "UNLICENSED"
+}

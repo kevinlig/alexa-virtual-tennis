@@ -1,0 +1,15 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# nodenv
+.node-version
+
+# secrets
+secrets.json
+test.json
+simTest.js
+sources.txt

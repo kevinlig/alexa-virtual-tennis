@@ -1,0 +1,16 @@
+# Alexa Table Tennis Game
+# Serverless Configuration
+
+service: alexa-table-tennis
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  profile: ${file(./secrets.json):AWS_PROFILE}
+  role: ${file(./secrets.json):AWS_ROLE}
+  environment:
+    ALEXA_APP_ID: ${file(./secrets.json):ALEXA_APP_ID}
+
+functions:
+  game:
+    handler: handler.game
